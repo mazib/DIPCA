@@ -386,6 +386,12 @@ p.paragraph {
 	font-weight: 300;
 }
 
+.council-or-rep {
+	margin: 10px 0;
+	text-transform: uppercase;
+	color: #ccc;
+}
+
 .council-or-rep-name {
 	font-weight: 700;
 	margin-top: 10px;
