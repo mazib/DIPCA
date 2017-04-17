@@ -389,7 +389,8 @@ p.paragraph {
 .council-or-rep {
 	margin: 10px 0;
 	text-transform: uppercase;
-	color: #ccc;
+	color: #666;
+	letter-spacing: 2px;
 }
 
 .council-or-rep-name {
