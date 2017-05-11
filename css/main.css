@@ -341,6 +341,42 @@ p.paragraph {
 	background: #BBA288;
 }
 
+/** this is for the news bar on index.html */
+
+
+.news-bar {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.news-bar p a {
+	color: #5858FF;
+	text-decoration: none;
+	border-bottom: 5px solid #FFFF58;
+}
+
+.news-bar p a::after {
+	content: "›";
+	font-size: 22px;
+	margin-left: 5px;
+
+}
+
+.news-bar p a:hover {
+	border-bottom: 5px solid #5858ff;
+}
+
+.label--latest-news {
+	text-transform: uppercase;
+	background: #5858FF;
+	padding: 3px 6px;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 12px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
 
 /** colorize the fluid border */
 .footer-border-yellow {
