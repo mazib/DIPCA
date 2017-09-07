@@ -700,16 +700,12 @@ VOLUNTEER HOURS
   color:#fff;
 }
 
-
-
 /*** the volunteer hours **/
-.volunteer-hours {
-
-}
-
 
 .volunteer-hours ul li {
   width: 250px;
+  list-style: none;
+  text-decoration: none;
   display: inline-block;
   font-size: 24px;
   padding: 10px 0;
