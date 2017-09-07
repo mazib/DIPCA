@@ -4,6 +4,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.ctas-button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.ctas-button-2:hover {
+  background-color: #222;
+  color: #fff;
+}
+
 .ctas-button {
     color: #444;
 }
@@ -89,6 +99,7 @@ p.paragraph {
     line-height: 36px;
     font-weight: 900;
 }
+
 
 @media (max-width: 420px) {
     .logo {
@@ -254,7 +265,7 @@ p.paragraph {
 }
 
 .header .heading {
-    margin: 120px 0 0 0;
+    margin: 60px 0 0 0;
 }
 
 .header .centerdevices {
@@ -629,4 +640,87 @@ p.paragraph {
 .press-release-section aside {
     border-left: 10px solid #000;
     padding-left: 20px;
+}
+
+
+/****
+VOLUNTEER HOURS
+/****/
+
+.volunteers {
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+.volunteers span a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* our volunteers */
+.volunteer--btn1 {
+    display: inline-block;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    border: 1px solid white;
+    text-decoration: none;
+    background: #FFFF58
+}
+
+.volunteer--btn1:hover {
+  background-color: #222;
+  color:#fff;
+}
+
+
+/* join us */
+.volunteer--btn2 {
+    display: inline-block;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5858FF;
+}
+.volunteer--btn2:hover {
+  background-color: #222;
+  color:#fff;
+}
+
+
+
+/*** the volunteer hours **/
+.volunteer-hours {
+
+}
+
+
+.volunteer-hours ul li {
+  width: 250px;
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px 0;
+  line-height: 36px;
+}
+
+.volunteer-hours ul li span {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  background-color: #333;
+  color: #fff;
+  padding: 2px 5px;
 }
