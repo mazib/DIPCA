@@ -156,11 +156,21 @@ img.image-logo:hover {
 
 /* homepage images */
 /*******************/
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  .hero-img1 {
+      background-image: url('../img/patient-doctor-interaction-2x.jpg');
+
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .hero-img1 {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-    background-image: url('../img/patient-doctor-interaction-mobile.jpg');
+       /* display: none; */
   }
 }
 .hero-img1 {
@@ -173,6 +183,17 @@ img.image-logo:hover {
   background-color: #ccc;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+/* */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  .hero-img1 {
+      background-image: url('../img/childone-childtwo-2x.jpg');
+
+  }
 }
 
 .hero-img2 {
@@ -190,7 +211,7 @@ img.image-logo:hover {
   .hero-img2 {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-  background-image: url('../img/childone-childtwo.jpg');
+       /* display: none; */
   }
 }
 
@@ -211,7 +232,7 @@ img.image-logo:hover {
   .hero-img3 {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-  background-image: url('../img/baby-mother.jpg');
+       display: none;
   }
 }
 
