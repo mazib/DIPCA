@@ -157,9 +157,9 @@ img.image-logo:hover {
 /* homepage images */
 /*******************/
 
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   .hero-img1 {
       background-image: url('../img/patient-doctor-interaction-2x.jpg');
 
@@ -187,9 +187,9 @@ img.image-logo:hover {
 
 /* */
 
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   .hero-img1 {
       background-image: url('../img/childone-childtwo-2x.jpg');
 
