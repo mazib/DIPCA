@@ -492,15 +492,28 @@ p.homepage-news-box a:hover {
   color: #fff;
 }
 
-#dpca-footer {
-  text-align: center;
+
+span#dpca-name-footer {
+  line-height: 32px;
 }
 
 p#dpca-name-footer {
   font-size: 48px;
   font-weight: 900;
   color: red;
-  text-align: center;
+  text-align: left;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  p#dpca-name-footer {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  span#dpca-name-footer {
+    line-height: 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -529,8 +542,12 @@ a.dpca-social-footer-link:hover {
 }
 
 .social-media-icons {
-  text-align: center;
-  float: none;
+  text-align: left;
+}
+
+.social-media-icons a {
+  display: block;
+  margin: 20px 0;
 }
 
 span#dpca-name-footer {
@@ -550,19 +567,15 @@ span#dpca-name-footer {
   }
 }
 
-ul.dpca-footer-links {
-  margin-bottom: 25px;
-}
 
 .dpca-footer-links li {
-  padding: 5px 10px;
   color: red;
   font-size: 20px;
   margin: 10px 5px;
-  display: inline-block;
+  display: block;
 }
 
-.dpca-footer-links li a {
+.dpca-footer-links li a, .dpca-footer-links li a:visited {
   color: red;
 }
 
